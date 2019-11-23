@@ -28,3 +28,15 @@ variable "service_principal_client_secret" {
 variable "rbac_enabled" {
   default = true
 }
+
+variable "fluentd_container_image" {
+}
+
+variable "fluentd_elasticsearch_host" {
+}
+
+variable "fluentd_elasticsearch_port" {
+}
+
+variable "fluentd_elasticsearch_scheme" {
+}

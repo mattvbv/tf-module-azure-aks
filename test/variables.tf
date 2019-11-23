@@ -35,3 +35,19 @@ variable "service_principal_client_id" {
 
 variable "service_principal_client_secret" {
 }
+
+variable "fluentd_container_image" {
+  default = "fluent/fluentd-kubernetes-daemonset:v1.3-debian-elasticsearch-1"
+}
+
+variable "fluentd_elasticsearch_host" {
+  default = "elk"
+}
+
+variable "fluentd_elasticsearch_port" {
+  default = "9200"
+}
+
+variable "fluentd_elasticsearch_scheme" {
+  default = "http"
+}

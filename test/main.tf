@@ -23,4 +23,8 @@ module "aks" {
   subnet_id = "${data.azurerm_subnet.theSubnet.id}"
   service_principal_client_id = var.service_principal_client_id
   service_principal_client_secret = var.service_principal_client_secret
+  fluentd_container_image = var.fluentd_container_image
+  fluentd_elasticsearch_host = var.fluentd_elasticsearch_host
+  fluentd_elasticsearch_port = var.fluentd_elasticsearch_port
+  fluentd_elasticsearch_scheme = var.fluentd_elasticsearch_scheme  
 }
