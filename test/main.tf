@@ -18,8 +18,8 @@ module "aks" {
   region = var.region
   resource_group_name = var.resource_group_name
   name = var.name
-  worker_vm_size = var.worker_vm_size
-  worker_count = var.worker_count
+  worker_node_vm_size = var.worker_node_vm_size
+  initial_worker_node_count = var.initial_worker_node_count
   subnet_id = "${data.azurerm_subnet.theSubnet.id}"
   service_principal_client_id = var.service_principal_client_id
   service_principal_client_secret = var.service_principal_client_secret

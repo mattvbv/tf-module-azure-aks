@@ -9,10 +9,10 @@ variable "resource_group_name" {
 variable "name" {
 }
 
-variable "worker_vm_size" {   
+variable "worker_node_vm_size" {   
 }
 
-variable "worker_count" {  
+variable "initial_worker_node_count" {  
 }
 
 variable "subnet_id" {

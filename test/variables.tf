@@ -22,11 +22,11 @@ variable "subnet_name" {
   default = "platformtestsubnet"
 }
 
-variable "worker_vm_size" { 
+variable "worker_node_vm_size" { 
   default = "Standard_B2ms"
 }
 
-variable "worker_count" {
+variable "initial_worker_node_count" {
   default = "1"
 }
 
