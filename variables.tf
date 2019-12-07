@@ -29,6 +29,10 @@ variable "rbac_enabled" {
   default = true
 }
 
+variable "dashboard_enabled" {
+  default = true
+}
+
 variable "fluentd_container_image" {
 }
 
